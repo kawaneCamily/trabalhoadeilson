@@ -1,0 +1,87 @@
+/* Centraliza a página inteira */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fdfdfd;
+}
+
+/* Centraliza o conteúdo do formulário */
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.a {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+
+.b {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+}
+
+.c{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: darkred;
+}
+
+.d{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.e{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-outline-info {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+.x{
+    max-width: 80%; /* Limita o tamanho máximo da largura da imagem */
+    max-height: 80%; /* Limita o tamanho máximo da altura da imagem */
+    overflow: hidden; /* Impede que a imagem ultrapasse o container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
